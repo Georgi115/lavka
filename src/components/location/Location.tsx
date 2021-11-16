@@ -6,7 +6,7 @@ import {
   RootState,
   useAppSelector,
 } from "../../redux";
-import { TransitionComponent } from "..";
+import { TransitionHeaderModals } from "..";
 import React, { FC } from "react";
 
 export const Location: FC = (): JSX.Element => {
@@ -20,7 +20,7 @@ export const Location: FC = (): JSX.Element => {
   };
   return (
     <div className={`${style.locationFlex}`}>
-      <TransitionComponent
+      <TransitionHeaderModals
         addiction={viewLocation}
         handler={handlerChangeViewBlockLocation}
         enter={style.locationBlockShow}
@@ -65,7 +65,7 @@ export const Location: FC = (): JSX.Element => {
             <Maps></Maps>
           </div>
         </div>
-      </TransitionComponent>
+      </TransitionHeaderModals>
     </div>
   );
 };

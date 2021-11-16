@@ -1,9 +1,9 @@
 import { FC } from "react";
 import { CSSTransition } from "react-transition-group";
 import style from "./transitionComponent.module.css";
-import { IPropsTransitionComponent } from "../../types";
+import { IPropsTransitionHeaderModals } from "../../types";
 
-export const TransitionComponent: FC<IPropsTransitionComponent> = ({
+export const TransitionHeaderModals: FC<IPropsTransitionHeaderModals> = ({
   addiction,
   handler,
   enter,

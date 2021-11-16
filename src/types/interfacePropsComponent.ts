@@ -1,6 +1,6 @@
 import React from "react";
 
-export interface IPropsTransitionComponent {
+export interface IPropsTransitionHeaderModals {
   addiction: boolean;
   handler: (e: React.MouseEvent) => void;
   enter: string;

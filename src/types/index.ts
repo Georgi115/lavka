@@ -5,4 +5,4 @@ export type {
   ILocationState,
 } from "./intefacesInitialState";
 
-export type { IPropsTransitionComponent } from "./interfacePropsComponent";
+export type { IPropsTransitionHeaderModals } from "./interfacePropsComponent";
