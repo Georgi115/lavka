@@ -1,7 +1,7 @@
 import style from "./MainBlockCatalog.module.css";
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux";
-import { ICategory } from "../../types/Category";
+import { ICategory } from "../../types/interfaceCategory";
 import { returnSelectorMainBlock } from "../../helpers";
 import { FC } from "react";
 

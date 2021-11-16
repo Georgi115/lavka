@@ -1,9 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { ICartState } from "../../types";
 
-interface IState {
-  viewDropCart: boolean;
-}
-const initialState: IState = {
+const initialState: ICartState = {
   viewDropCart: false,
 };
 

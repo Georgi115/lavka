@@ -1,7 +1,7 @@
 import { FC } from "react";
 import style from "./CatalogMenu.module.css";
 import { useAppDispatch, changeActiveCategory } from "../../redux";
-import { ICategory } from "../../types/Category";
+import { ICategory } from "../../types/interfaceCategory";
 
 interface ICatalogItem {
   el: ICategory;

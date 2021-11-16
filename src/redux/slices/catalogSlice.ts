@@ -1,12 +1,8 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { ICategory } from "../../types/Category";
 import { catalogDate } from "../../data/catalogData";
+import { ICatalogState } from "../../types";
 
-interface IState {
-  categorys: ICategory[];
-  viewDropCatalog: boolean;
-}
-const initialState: IState = {
+const initialState: ICatalogState = {
   categorys: catalogDate,
   viewDropCatalog: false,
 };

@@ -4,3 +4,4 @@ export { Location } from "./location";
 export { DropCatalog } from "./catalogMenu";
 export { MainBlockCatalog } from "./mainBlockCatalog";
 export { DropCart } from "./cart";
+export { TransitionComponent } from "./transitionComponent/transitionComponent";

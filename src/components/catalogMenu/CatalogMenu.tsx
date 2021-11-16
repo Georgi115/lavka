@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import style from "./CatalogMenu.module.css";
 import CatalogMenuItem from "./CatalogMenuItem";
 import { RootState, useAppSelector } from "../../redux";
-import { ICategory } from "../../types/Category";
+import { ICategory } from "../../types/interfaceCategory";
 
 interface ICatalog {
   component?: string;

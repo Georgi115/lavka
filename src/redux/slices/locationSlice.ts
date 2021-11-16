@@ -1,9 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { ILocationState } from "../../types";
 
-interface IState {
-  viewLocation: boolean;
-}
-const initialState: IState = {
+const initialState: ILocationState = {
   viewLocation: false,
 };
 
