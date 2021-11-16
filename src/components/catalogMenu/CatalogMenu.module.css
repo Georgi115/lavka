@@ -1,0 +1,136 @@
+.catalogTitle {
+  font-family: "yandexdisplaybold";
+  font-size: 24px;
+}
+
+.catalogItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 23px;
+
+  cursor: pointer;
+
+  font-family: "yandexsanstextmedium";
+  font-size: 16px;
+}
+
+.catalogItem:hover .categoryicon {
+  display: block;
+
+  transform: 0.3s;
+}
+
+.catalog {
+  position: sticky;
+  top: -80px;
+
+  width: 250px;
+
+  height: 820px;
+}
+
+.catalogImg {
+  width: 32px;
+  height: 32px;
+  margin-right: 14px;
+
+  border-radius: 50%;
+}
+
+.catalogItemInfo {
+  display: flex;
+  align-items: center;
+}
+
+.catalogList {
+  margin-left: 10px;
+}
+
+.itemSub {
+  overflow: hidden;
+
+  max-height: 0;
+  margin-left: 46px;
+
+  transition: 0.6s ease;
+
+  font-family: "yandexsanstextregular";
+  font-size: 16px;
+}
+
+.itemSub p:first-child {
+  margin-top: 20px;
+}
+
+.itemSubText {
+  margin-bottom: 26px;
+}
+
+.itemsub > p:hover {
+  cursor: pointer;
+
+  color: rgb(182 181 177);
+}
+
+.itemSub p:last-child {
+  margin-bottom: 0;
+}
+
+.itemSubActive {
+  max-height: 500px;
+
+  transition: 1s ease;
+}
+
+.categoryIconActive {
+  position: relative;
+  z-index: 0;
+
+  display: block;
+
+  transition: 0.3s;
+  transform: rotate(90deg);
+}
+
+.dropCatalog {
+  position: relative;
+  z-index: 300;
+
+  width: 300px;
+  height: 650px;
+  padding: 30px;
+
+  animation: opacity 0.2s ease;
+
+  border-radius: 25px;
+  background-color: rgb(247 247 247);
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.dropCatalog::-webkit-scrollbar {
+  width: 0;
+}
+
+.dropBlock {
+  position: absolute;
+  z-index: 1000;
+  top: 40px;
+  left: 0;
+
+  padding-top: 17px;
+}

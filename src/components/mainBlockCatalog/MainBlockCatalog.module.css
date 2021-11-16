@@ -1,0 +1,196 @@
+.mainBlockCatalogInfo {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 40px;
+}
+
+.mainBlockCatalog {
+  display: flex;
+
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+
+  margin-left: 80px;
+}
+
+.mainBlockCatalog::-webkit-scrollbar {
+  width: 0;
+}
+
+.mainBlockCatalogSub {
+  height: 140px;
+  margin-top: 8px;
+  margin-right: 8px;
+  padding: 18px 0 0 16px;
+
+  transition: 0.5s;
+
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+
+  font-family: "YandexSansTextMedium";
+  font-size: 16px;
+}
+
+.mainBlockCatalogSub:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.mainBlockCatalogSubInfo {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 855px;
+  margin-top: 10px;
+}
+
+.mainBlockCatalogSubInfo div:last-child {
+  margin-right: 0;
+}
+
+.mainBlockCatalogText {
+  font-family: "Yandexsanstextbold";
+  font-size: 24px;
+}
+
+.mainBlockStyleFoodDiv {
+  width: 423px;
+}
+
+.mainBlockStyleVegetablesDiv {
+  width: 423px;
+}
+
+.mainBlockStyleMilkDiv {
+  width: 140px;
+}
+
+.mainBlockStyleMilk div:first-child {
+  width: 263px;
+}
+
+.mainBlockStyleMilk div:nth-child(3) {
+  padding-right: 5px;
+}
+
+.mainBlockStyleBreadDiv {
+  width: 279px;
+}
+
+.mainBlockStyleWaterDiv {
+  width: 140px;
+}
+
+.mainBlockStyleWater div:first-child {
+  width: 263px;
+}
+
+.mainBlockStyleSweet div:first-child,
+.mainBlockStyleSweet div:nth-child(2),
+.mainBlockStyleSweet div:nth-child(3),
+.mainBlockStyleSweet div:nth-child(5),
+.mainBlockStyleSweet div:nth-child(6) {
+  width: 279px;
+}
+
+.mainBlockStyleSweet div:nth-child(3) {
+  margin-right: 0;
+}
+
+.mainBlockStyleSweet div:last-child {
+  width: 135px;
+  margin-right: 0;
+}
+
+.mainBlockStyleSweet div:nth-child(4) {
+  width: 135px;
+}
+
+.mainBlockStyleMeat div:first-child,
+.mainBlockStyleMeat div:nth-child(3) {
+  width: 279px;
+}
+
+.mainBlockStyleMeat div:last-child,
+.mainBlockStyleMeat div:nth-child(2) {
+  width: 135px;
+}
+
+.mainBlockStyleFreezing div:first-child,
+.mainBlockStyleFreezing div:nth-child(2),
+.mainBlockStyleFreezing div:nth-child(3),
+.mainBlockStyleFreezing div:nth-child(5),
+.mainBlockStyleFreezing div:nth-child(6) {
+  width: 279px;
+}
+
+.mainBlockStyleFreezing div:last-child {
+  width: 135px;
+  margin-right: 0;
+}
+
+.mainBlockStyleFreezing div:nth-child(4) {
+  width: 135px;
+}
+
+.mainBlockStyleFreezing div:nth-child(3) {
+  margin-right: 0;
+}
+
+.mainBlockStyleHealthyDiv {
+  width: 140px;
+}
+
+.mainBlockStyleHealthy div:first-child {
+  width: 263px;
+}
+
+.mainBlockStyleGroceryDiv {
+  width: 140px;
+}
+
+.mainBlockStyleGrocery div:first-child {
+  width: 263px;
+}
+
+.mainBlockStyleChildrenDiv {
+  width: 279px;
+}
+
+.mainBlockStyleAnimalsDiv {
+  width: 423px;
+}
+
+.mainBlockStyleHome div:first-child,
+.mainBlockStyleHome div:nth-child(2),
+.mainBlockStyleHome div:nth-child(3),
+.mainBlockStyleHome div:nth-child(5),
+.mainBlockStyleHome div:nth-child(6) {
+  width: 279px;
+}
+
+.mainBlockStyleHome div:last-child {
+  width: 135px;
+  margin-right: 0;
+}
+
+.mainBlockStyleHome div:nth-child(4) {
+  width: 135px;
+}
+
+.mainBlockStyleHome div:nth-child(3) {
+  margin-right: 0;
+}
+
+.mainBlockStyleNeededDiv {
+  width: 140px;
+}
+
+.mainBlockStyleNeeded div:nth-child(2) {
+  width: 263px;
+}

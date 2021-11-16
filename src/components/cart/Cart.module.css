@@ -1,0 +1,43 @@
+.dropCart {
+  width: 350px;
+  min-height: 280px;
+
+  border-radius: 40px;
+  background-color: #ffff;
+  box-shadow: 0 -33px 61px 6px rgb(34 60 80 / 11%);
+}
+
+.dropCartBlock {
+  position: absolute;
+  z-index: 2001;
+  top: 0;
+  right: 26px;
+
+  padding-top: 60px;
+}
+
+.imgEmptyCart {
+  width: 100px;
+  height: 100px;
+}
+
+.emptyCart {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 280px;
+}
+
+.emptyCartTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.emptyCartText {
+  font-weight: lighter;
+}

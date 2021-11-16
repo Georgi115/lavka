@@ -1,0 +1,147 @@
+.backBlockLocation {
+  position: absolute;
+  z-index: 3000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(0 0 0 / 30.8%);
+}
+
+.locationBlock {
+  position: fixed;
+  z-index: 4000;
+  top: 64px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 960px;
+  height: 560px;
+
+  border-radius: 25px;
+  background-color: rgb(255 255 255);
+}
+
+.locationBlockShow {
+  animation: show-block 0.5s;
+}
+
+.locationBlockNotVissible {
+  animation: show-block 0.5s reverse forwards;
+}
+
+@keyframes show-block {
+  0% {
+    transform: translateY(80px);
+
+    opacity: 0%;
+  }
+
+  100% {
+    transform: translateY(0);
+
+    opacity: 100%;
+  }
+}
+
+.locationInfo {
+  padding: 30px 28px 0;
+}
+
+.locationTitle {
+  font-family: "YandexSansTextBold";
+  font-size: 28px;
+}
+
+.loacationInfo {
+  width: 691px;
+  margin-top: 10px;
+
+  color: rgb(173 173 173);
+
+  font-family: "YandexSansTextRegular";
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.locationInfoBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.locationBlockInput {
+  display: flex;
+
+  margin-top: 20px;
+  padding: 0 24px;
+}
+
+.locationInput {
+  width: 738px;
+  height: 48px;
+  padding: 0 43px;
+
+  color: black;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(241 240 237);
+
+  font-family: "YandexSansTextRegular";
+  font-size: 16px;
+}
+
+.locationInputBtn {
+  width: 160px;
+  height: 48px;
+  margin-left: 8px;
+
+  color: rgb(160 160 160);
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(241 240 237);
+
+  font-family: "YandexSansTextRegular";
+  font-size: 16px;
+}
+
+.locationSearchIcon {
+  position: absolute;
+  left: 15px;
+}
+
+.locationCloseInput {
+  position: absolute;
+  right: 21px;
+
+  cursor: pointer;
+
+  color: rgb(160 160 160);
+}
+
+.locationFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-close {
+  cursor: pointer;
+}
+
+.locationMap {
+  flex: 1;
+
+  width: 100%;
+  margin-top: 24px;
+  padding: 0 5px 5px;
+}
+
+.locationYMaps {
+  border-radius: 10px;
+}

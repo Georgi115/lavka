@@ -1,0 +1,27 @@
+.containerCatalog {
+  position: relative;
+
+  display: flex;
+
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 135px;
+
+  font-family: "YandexDisplayBold";
+}
+
+.homePage {
+  position: relative;
+}
+
+.backDropDiv {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  opacity: 0%;
+  background-color: black;
+}

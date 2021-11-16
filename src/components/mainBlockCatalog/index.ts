@@ -1,0 +1,1 @@
+export {MainBlockCatalog} from './MainBlockCatalog'

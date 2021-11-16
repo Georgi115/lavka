@@ -1,0 +1,10 @@
+.App {
+  color: red;
+
+  font-family: "Yandex";
+  font-family: "yandexsanstextbold";
+}
+
+.App div {
+  color: "black";
+}
